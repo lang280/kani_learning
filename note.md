@@ -1,1 +1,14 @@
-kani can cover the case where property test cannot
+## test tools classification
+property test
+验证程序的某些属性或特性是否符合预期。与传统的单元测试不同，属性测试不关注具体的输入输出对，而是定义程序应满足的一般性属性，然后通过生成大量随机输入来验证这些属性是否成立
+
+test harness
+自动化测试的软件框架或环境。它包括一组测试工具和测试脚本，用于执行测试用例、记录测试结果、并分析输出
+
+Formal verification tool
+Example: Kani, SPIN, Coq, Z3
+通过数学方法和逻辑推理来证明系统是否满足特定的属性或规范。与传统的测试方法不同，形式验证工具不依赖于具体的测试用例，而是通过系统化的分析来确保系统在所有可能的输入情况下都能正确运行
+
+
+```cargo test``` 传统的单元测试，基于具体的输入输出对。
+```cargo kani``` 用于形式验证，通过系统化的分析确保代码在所有可能的输入情况下都能正确运行
