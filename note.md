@@ -1,0 +1,1 @@
+kani can cover the case where property test cannot
