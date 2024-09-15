@@ -1,9 +1,9 @@
 ## Dependences
 ###　rustup
-verify installation ```rustup --version```
+verify installation `rustup --version`
 ### Universal ctags
-ctags dependences installation ```sudo apt install -y autoconf automake pkg-config```
-clone ctags github repo ```git clone https://github.com/universal-ctags/ctags.git```
+ctags dependences installation `sudo apt install -y autoconf automake pkg-config`
+clone ctags github repo `git clone https://github.com/universal-ctags/ctags.git`
 ```
 cd ctags
 ./autogen.sh
