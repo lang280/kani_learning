@@ -11,12 +11,14 @@ sudo make install
 ```
 verify installation: ```ctags --version```
 
-### Kani installation
-```
-cargo install --locked kani-verifier
-cargo kani setup
-```
+
 
 ## MacOS
 ### Universal ctags installation
 `brew install universal-ctags`
+
+## Kani installation
+```
+cargo install --locked kani-verifier
+cargo kani setup
+```
