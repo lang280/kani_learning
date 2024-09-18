@@ -1,7 +1,5 @@
-## Dependences
-###　rustup
-verify installation `rustup --version`
-### Universal ctags
+## Windows
+### Universal ctags installation
 ctags dependences installation `sudo apt install -y autoconf automake pkg-config`
 clone ctags github repo `git clone https://github.com/universal-ctags/ctags.git`
 ```
@@ -13,8 +11,12 @@ sudo make install
 ```
 verify installation: ```ctags --version```
 
-## Kani installation
+### Kani installation
 ```
 cargo install --locked kani-verifier
 cargo kani setup
 ```
+
+## MacOS
+### Universal ctags installation
+`brew install universal-ctags`
