@@ -1,15 +1,7 @@
-## Windows
+## WSL
 ### Universal ctags installation
-ctags dependences installation `sudo apt install -y autoconf automake pkg-config`
-clone ctags github repo `git clone https://github.com/universal-ctags/ctags.git`
-```
-cd ctags
-./autogen.sh
-./configure
-make
-sudo make install
-```
-verify installation: ```ctags --version```
+`sudo apt install universal-ctag`
+verify installation: `ctags --version`
 
 
 
