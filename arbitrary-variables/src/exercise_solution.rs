@@ -1,9 +1,6 @@
-// Copyright Kani Contributors
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-
-//! If you want to try yourself the exercise in the Kani tutorial, stop reading now!
-//!
-//! This file is a solution to that exercise.
+/*
+  https://model-checking.github.io/kani/tutorial-nondeterministic-variables.html
+ */
 
 use crate::inventory::*;
 use std::num::NonZeroU32;

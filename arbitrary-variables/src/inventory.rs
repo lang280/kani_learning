@@ -1,7 +1,7 @@
-// Copyright Kani Contributors
-// SPDX-License-Identifier: Apache-2.0 OR MIT
 
-// ANCHOR: inventory_lib
+/*
+原网页: https://model-checking.github.io/kani/tutorial-nondeterministic-variables.html
+*/
 use std::num::NonZeroU32;
 use vector_map::VecMap;
 
