@@ -1,6 +1,14 @@
-## test tools classification
-property test
-验证程序的某些属性或特性是否符合预期。与传统的单元测试不同，属性测试不关注具体的输入输出对，而是定义程序应满足的一般性属性，然后通过生成大量随机输入来验证这些属性是否成立
+
+### property test
+传统测试方法, 例子:
+```
+proptest! {
+    #[test]
+    fn doesnt_crash(i: usize, a: Vec<u32>) {
+        get_wrapped(i, &a);
+    }
+}
+```
 
 test harness
 自动化测试的软件框架或环境。它包括一组测试工具和测试脚本，用于执行测试用例、记录测试结果、并分析输出
