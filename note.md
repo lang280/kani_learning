@@ -30,3 +30,10 @@ Example: Kani, SPIN, Coq, Z3
 ## 运行kani
 `kani verify-std -Z unstable-options "库所在目录" -Z function-contracts -Z mem-predicates --harness harness函数名称`
 例子: `kani verify-std -Z unstable-options "." -Z function-contracts -Z mem-predicates --harness from_u8`
+
+# 文档中的错误:
+https://model-checking.github.io/kani/reference/attributes.html#kaniproof
+Check the Stubbing section for more information about stubbing.
+
+https://model-checking.github.io/kani/verification-results.html
+FAILURE: This indicates that the check failed (i.e., the property doesn't hold). In this case, please see the concrete playback section for more help.
