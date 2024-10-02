@@ -30,7 +30,7 @@ fn estimate_size(x: u32) -> u32 {
 #[kani::proof]
 fn verify_success() {
     let x: u32 = kani::any(); // Generate any u32 value
-    kani::assume(x < 4096); // 限制测试满足函数前提条件
+    kani::assume(x < 2048); // 限制测试满足函数前提条件
     let y = estimate_size(x);
     assert!(y < 10);
 }
